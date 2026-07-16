@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="wrapper">    
+        <header class="container">
+            <span class="logo">logo</span>
+                <nav>
+                    <ul>
+                        <li><a href="/ютуб.html">Home</a></li>
+                        <li class="active"><a href="/about.html">About us</a></li>
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li class="btn"><a href="contacts.html">Contact us</a></li>
+                    </ul>
+                </nav>
+            </span>
+        </header>
+
+        <div class="hero-about container">
+            <div class="info">
+                <ul>
+                    <li><a href="/ютуб.html">Home</a></li>
+                    <p>></p>
+                    <li class="active"><a href="/about.html">About us</a></li>
+                </ul>
+                <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button class="btn">Get in touch</button>
+            </div>
+            <img src="images/Rectangle 6.png" alt="">
+        </div>
+
+        <div class="container work">
+            <h2>Why work with us</h2>
+            <div class="blocks">
+                <div class="block">
+                    <span class="badge purple">Lorem ipsum</span>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="block">
+                    <span class="badge brown">Lorem ipsum</span>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="block">
+                    <span class="badge green">Lorem ipsum</span>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="govno">
+        <div class="textndimg">
+            <div class="image-wrapper">
+                <img src="images/Rectangle 25.svg" alt="">
+            </div>
+            <div class="textndimg text">
+                <h5>Lorem Ipsum</h5>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <div class="our-team">
+            <h2>Our Team</h2>
+            <div class="blocks">
+                <div class="block">
+                    <img src="images/Bill 1.svg" alt="">
+                    <h3>Bill</h3>
+                    <p>COO</p>
+                </div>
+                <div class="block">
+                    <img src="images/Beverly 1.svg" alt="">
+                    <h3>Beverly</h3>
+                    <p>COO</p>
+                </div>
+                <div class="block">
+                    <img src="images/Claudia 1.svg" alt="">
+                    <h3>Claudia</h3>
+                    <p>COO</p>
+                </div>
+                <div class="block">
+                    <img src="images/Avatar 1.svg" alt="">
+                    <h3>John</h3>
+                    <p>COO</p>
+                </div>
+            </div>
+        </div>
+        <div class="container email">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <div class="block">
+                <div>
+                    <h4>Stay in the loop</h4>
+                    <p>Subscribe to receive the latest news and updates about TDA.
+                    We promise not to spam you!</p>
+                </div>
+                <div>
+                    <input type="email" id="emailField" placeholder="Enter email adress">
+                    <button onclick="checkEmail()">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="blocks container">
+            <div>
+                <span class="logo">logo</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div>
+                <h4>About us</h4>
+                <ul>
+                    <li>Zeus</li>
+                    <li>Portfolio</li>
+                    <li>Careers</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="cont">
+                <h4>Contact us</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>+908 89097 890</p>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright ® 2026 Lorem All rights Rcerved</p>
+    </footer>
+
+    <script>
+SmoothScroll({
+    // Время скролла 400 = 0.4 секунды
+    animationTime    : 500,
+    // Размер шага в пикселях 
+    stepSize         : 75,
+
+    // Дополнительные настройки:
+    
+    // Ускорение 
+    accelerationDelta : 30,  
+    // Максимальное ускорение
+    accelerationMax   : 2,   
+
+    // Поддержка клавиатуры
+    keyboardSupport   : true,  
+    // Шаг скролла стрелками на клавиатуре в пикселях
+    arrowScroll       : 50,
+
+    // Pulse (less tweakable)
+    // ratio of "tail" to "acceleration"
+    pulseAlgorithm   : true,
+    pulseScale       : 4,
+    pulseNormalize   : 1,
+
+    // Поддержка тачпада
+    touchpadSupport   : true,
+})
+    </script>
+
+    <script>
+        function checkEmail () {
+            let email = document.querySelector('#emailField').value;
+            if(!email.includes('@')) alert('Нет символа @');
+            else if(!email.includes('.')) alert ('Нет символа .');
+            else alert ('Все отлично!');
+        }
+    </script>
+    </body>
+</html>
